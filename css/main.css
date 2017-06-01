@@ -108,3 +108,13 @@ footer{
   color: white;
   padding-top: 7px;
 }
+.compu{
+  width: 100%;
+  padding: 20px 20px;
+}
+.texto{
+  text-align: center;
+}
+.box-services{
+  cursor: pointer;
+}
