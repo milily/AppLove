@@ -37,6 +37,8 @@ a:hover {
 }
 
 .link{
+  position: relative;
+  left: 100px;
   font-weight: 700;
   padding: 21px;
   display: inline-block;
@@ -51,6 +53,10 @@ header {
   background: white;
   width: 100%;
   top: 0;
+}
+.text-uppercase{
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
 }
 
 .menu{
@@ -101,6 +107,34 @@ header {
   font-size: 35px;
   letter-spacing: 2px;
 }
+.compu{
+  width: 100%;
+  padding: 20px 20px;
+}
+.texto{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.box-services{
+  cursor: pointer;
+}
+#texto{
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.img{
+  margin-left: 120px;
+}
+.m-0{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+.mb-0{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
 footer{
   text-align: center;
   height: 70px;
@@ -108,13 +142,4 @@ footer{
   color: white;
   padding-top: 7px;
 }
-.compu{
-  width: 100%;
-  padding: 20px 20px;
-}
-.texto{
-  text-align: center;
-}
-.box-services{
-  cursor: pointer;
-}
+
